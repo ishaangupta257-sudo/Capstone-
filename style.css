@@ -1,0 +1,139 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: url('https://media.istockphoto.com/id/1839081024/photo/seniors-check-up.jpg?s=612x612&w=0&k=20&c=yrJrttt1FFf5uMQTHAavRD0qEMMp8MLhnXyPMlHhryY=') no-repeat center center/cover;
+  background-attachment: fixed;
+  color: #222;
+}
+
+
+header {
+  background: rgba(0, 120, 215, 0.9);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.logo span {
+  color: #00a676;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+nav a:hover,
+nav a.active {
+  color: #00a676;
+}
+
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+  background: rgba(0, 0, 0, 0.45);
+  color: white;
+}
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+}
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+.btn {
+  background: #00a676;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: #0078d7;
+}
+
+
+.features {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 50px auto;
+  max-width: 1000px;
+}
+
+.feature-card {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 25px;
+  flex: 1 1 250px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  transition: transform 0.3s;
+}
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+.feature-card h3 {
+  color: #0078d7;
+  margin-bottom: 10px;
+}
+
+
+.content {
+  background: rgba(255, 255, 255, 0.9);
+  margin: 40px auto;
+  padding: 40px 60px;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.content h1 {
+  color: #0078d7;
+  margin-bottom: 20px;
+}
+
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.form-container input,
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+
+footer {
+  background: rgba(0, 120, 215, 0.9);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
