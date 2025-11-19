@@ -1,18 +1,14 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
 body {
   background: url('https://media.istockphoto.com/id/1839081024/photo/seniors-check-up.jpg?s=612x612&w=0&k=20&c=yrJrttt1FFf5uMQTHAavRD0qEMMp8MLhnXyPMlHhryY=') no-repeat center center/cover;
   background-attachment: fixed;
   color: #222;
 }
-
-
 header {
   background: rgba(0, 120, 215, 0.9);
   color: white;
@@ -20,7 +16,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 15px 50px;
-
 }
 
 .logo {
@@ -208,19 +203,14 @@ nav a.active {
   font-size: 18px;
   line-height: 1.7;
   color: #555;
+  color: black;
 }
 
 .about-content ul {
   margin-top: 10px;
   font-size: 18px;
-  color: #444;
-}
-footer {
-  background: rgba(0, 120, 215, 0.9);
-  color: white;
-  text-align: center;
-  padding: 15px;
-  margin-top: 40px;
+  color: black;
+
 }
 .contact-hero {
   background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
@@ -251,7 +241,6 @@ footer {
   font-size: 20px;
 }
 
-/* Contact Section */
 .contact-section {
   display: flex;
   justify-content: center;
@@ -298,6 +287,14 @@ footer {
   border-color: #0077cc;
   box-shadow: 0 0 5px rgba(0,119,204,0.4);
 }
+.form-group {
+    margin-bottom: 12px;
+}
+
+.form-group input {
+    padding: 10px;
+}
+
 .btn {
   width: 100%;
   padding: 12px;
@@ -312,4 +309,49 @@ footer {
 }
 .btn:hover {
   background: #005fa3;
+}
+.footer {
+  background: #003a63;
+  color: #fff;
+  padding-top: 40px;
+  margin-top: 50px;
+}
+.footer-container {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 0 40px 40px;
+}
+
+.footer-section h3,
+.footer-section h4 {
+  margin-bottom: 12px;
+  color: #00c3e3;
+}
+
+.footer-section p {
+  font-size: 16px;
+  color: #e4e4e4;
+  line-height: 1.6;
+}
+.footer-socials {
+  margin-top: 12px;
+}
+
+.footer-socials a img {
+  width: 28px;
+  margin-right: 10px;
+  filter: brightness(0) invert(1);
+  transition: 0.3s;
+}
+.footer-socials a img:hover {
+  transform: scale(1.1);
+}
+.footer-bottom {
+  text-align: center;
+  padding: 15px;
+  background: #002a4a;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #cfcfcf;
 }
