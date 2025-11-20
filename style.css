@@ -5,12 +5,12 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background: url('https://media.istockphoto.com/id/1839081024/photo/seniors-check-up.jpg?s=612x612&w=0&k=20&c=yrJrttt1FFf5uMQTHAavRD0qEMMp8MLhnXyPMlHhryY=') no-repeat center center/cover;
+  background: url('https://i.pinimg.com/1200x/f6/fe/fe/f6fefe2de0bf2cd421caff9cef4c729a.jpg') no-repeat center center/cover;
   background-attachment: fixed;
   color: #222;
 }
 header {
-  background: rgba(0, 120, 215, 0.9);
+  background: #002a4a;
   color: white;
   display: flex;
   justify-content: space-between;
